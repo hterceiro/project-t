@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(/src/main/java/conf/application.conf,/src/main/java/target/scala-2.13/classes/application.conf)
+[debug] 	(/src/main/java/conf/logback.xml,/src/main/java/target/scala-2.13/classes/logback.xml)
+[debug] 	(/src/main/java/conf/routes,/src/main/java/target/scala-2.13/classes/routes)

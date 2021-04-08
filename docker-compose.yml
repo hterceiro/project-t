@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  nginx:
+    container_name: project-t-nginx
+    image: nginx:1.15
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+  web:
+    build: .
+    ports:
+      - 9000:9000
+    volumes:
+      - .:/src/main/java
+      - ~/.ivy2:/root/.ivy2
+      - ~/.sbt:/root/.sbt
+    links:
+      - nginx

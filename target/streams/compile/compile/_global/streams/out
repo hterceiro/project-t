@@ -1,0 +1,12 @@
+[error] /src/main/java/app/Module.java:22:1: cannot find symbol
+[error]   symbol:   class ApplicationTimer
+[error]   location: class Module
+[error] ApplicationTimer
+[error] /src/main/java/app/Module.java:24:1: cannot find symbol
+[error]   symbol:   class AtomicCounter
+[error]   location: class Module
+[error] AtomicCounter
+[error] /src/main/java/app/Module.java:24:1: cannot find symbol
+[error]   symbol:   class Counter
+[error]   location: class Module
+[error] Counter

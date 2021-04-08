@@ -1,0 +1,6 @@
+# Routes
+
+GET     /                           controllers.HomeController.index
+
+GET     /api/v1/organizations/:name/contributors     v1.actions.GetAction.index(name: String)
+
